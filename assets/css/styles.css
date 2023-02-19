@@ -720,10 +720,11 @@ body.dark-theme {
 
 
 /*=============== CONTACT ===============*/
-.contact__container{
+.contact__container {
   row-gap: 3.5rem;
 }
-.contact__title{
+
+.contact__title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -740,25 +741,30 @@ body.dark-theme {
 
 .contact__info,
 .contact__data,
-.contact__form{
+.contact__form {
   display: grid;
 }
-.contact__info{
+
+.contact__info {
   row-gap: 2rem;
 }
-.contact__data{
+
+.contact__data {
   row-gap: .75rem;
 }
-.contact__data-title{
+
+.contact__data-title {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
-.contact__data-info{
+
+.contact__data-info {
   font-size: var(--small-font-size);
   font-family: var(--title-font);
   color: var(--title-color);
 }
-.contact__button{
+
+.contact__button {
   width: max-content;
   display: inline-flex;
   align-items: center;
@@ -766,6 +772,7 @@ body.dark-theme {
   color: var(--title-color);
   font-size: var(--small-font-size)
 }
+
 .contact__button i {
   font-size: 1rem;
   transition: transform .3s;
@@ -779,11 +786,13 @@ body.dark-theme {
   position: relative;
   row-gap: 2rem;
 }
-.contact__form-div{
+
+.contact__form-div {
   position: relative;
   height: 4rem;
 }
-.contact__form-input{
+
+.contact__form-input {
   position: absolute;
   top: 0;
   left: 0;
@@ -800,7 +809,7 @@ body.dark-theme {
   z-index: 1;
 }
 
-.contact__form-tag{
+.contact__form-tag {
   position: absolute;
   top: -.75rem;
   left: 1.25rem;
@@ -812,10 +821,11 @@ body.dark-theme {
   padding: .35rem;
 }
 
-.contact__form-area{
+.contact__form-area {
   height: 10rem;
 }
-.contact__form-area textarea{
+
+.contact__form-area textarea {
   resize: none;
 }
 
@@ -829,37 +839,81 @@ body.dark-theme {
   outline: none;
   margin-top: .75rem;
 }
-.contact__form .contact__button i{
+
+.contact__form .contact__button i {
   font-size: 1.5rem;
   font-weight: initial;
 }
 
-.contact__message{
+.contact__message {
   font-size: var(--small-font-size);
   position: absolute;
   bottom: 2.8rem;
   left: 1.5rem;
 }
+
 /* Status color */
-.color-blue{
- color: hsl(207, 56%, 45%);
+.color-blue {
+  color: hsl(207, 56%, 45%);
 }
-.color-red{
+
+.color-red {
   color: hsl(4, 71%, 50%);
 }
 
 
 /*=============== FOOTER ===============*/
-.footer__container{
+.footer__container {
   padding: 3rem 0 7rem;
   text-align: center;
 }
-.footer__title{
+
+.footer__title {
   font-size: var(--h1-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: 1rem;
 }
 
+.footer__list,
+.footer__social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__list {
+  margin: 2.5rem 0;
+  column-gap: 2.5rem;
+}
+
+.footer__link {
+  color: var(--title-color);
+
+}
+
+.footter__link:hover {
+  text-decoration: underline;
+}
+
+.footer__social {
+  column-gap: 1.25rem;
+}
+
+.footer__social-link {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  transition: transform .3s;
+}
+
+.footer__social-link:hover {
+  transform: translateY(-.15rem);
+}
+
+.footer__copy {
+  display: block;
+  margin-top: 4.5rem;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
 
 /*=============== SCROLL BAR ===============*/
 
