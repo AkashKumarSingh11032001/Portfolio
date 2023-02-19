@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -404,46 +404,59 @@
             <span class="section__subtitle">Most recent work</span>
 
             <div class="container grid section__border">
-                <div class="projects__container">
-                    <div>
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
                         <!--==================== PROJECT 1 ====================-->
-                        <img src="assets/img/project1.jpg" alt="projects image" class="projects__img">
-                        <div>
-                            <span class="projects__subtitle">Web</span>
-                            <h1 class="projects__title">Modern Website</h1>
-                            <a href="#" class="projects__button">
-                                View demo<i class="ri-arrow-right-line"></i>
-                            </a>
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project1.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">Modern Website</h1>
+                                <a href="#" class="projects__button">
+                                    View demo<i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
                         </div>
                         <!--==================== PROJECT 2 ====================-->
-                        <img src="assets/img/project2.jpg" alt="projects image" class="projects__img">
-                        <div>
-                            <span class="projects__subtitle">Web</span>
-                            <h1 class="projects__title">ECommerce Store</h1>
-                            <a href="#" class="projects__button">
-                                View demo<i class="ri-arrow-right-line"></i>
-                            </a>
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project2.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">ECommerce Store</h1>
+                                <a href="#" class="projects__button">
+                                    View demo<i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
                         </div>
                         <!--==================== PROJECT 3 ====================-->
-                        <img src="assets/img/project3.jpg" alt="projects image" class="projects__img">
-                        <div>
-                            <span class="projects__subtitle">Design</span>
-                            <h1 class="projects__title">Application Design</h1>
-                            <a href="#" class="projects__button">
-                                View demo<i class="ri-arrow-right-line"></i>
-                            </a>
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project3.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Design</span>
+                                <h1 class="projects__title">Application Design</h1>
+                                <a href="#" class="projects__button">
+                                    View demo<i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
                         </div>
                         <!--==================== PROJECT 4 ====================-->
-                        <img src="assets/img/project4.jpg" alt="projects image" class="projects__img">
-                        <div>
-                            <span class="projects__subtitle">Animation</span>
-                            <h1 class="projects__title">Animation Prototypes</h1>
-                            <a href="#" class="projects__button">
-                                View demo<i class="ri-arrow-right-line"></i>
-                            </a>
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project4.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Animation</span>
+                                <h1 class="projects__title">Animation Prototypes</h1>
+                                <a href="#" class="projects__button">
+                                    View demo<i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
                         </div>
 
                     </div>
+                    <!-- Swipper arraw -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- swipper pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
 
@@ -473,7 +486,7 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!--=============== EMAIL JS ===============-->
 
